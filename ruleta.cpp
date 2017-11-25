@@ -121,7 +121,6 @@ void Ruleta::giraRuleta(){
     setBola(rand() % 37);
 }
 
-//TODO fix the getPremios mess
 void Ruleta::getPremios(bool toRead){
     std::list<Jugador>::iterator jugadorIt;
     std::list<Apuesta>::iterator apuestaIt;
