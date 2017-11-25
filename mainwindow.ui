@@ -117,7 +117,7 @@
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>../Descargas/bank(1).png</pixmap>
+                 <pixmap resource="res.qrc">:/resources/images/bank.png</pixmap>
                 </property>
                 <property name="scaledContents">
                  <bool>true</bool>
@@ -148,7 +148,7 @@
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>../Descargas/account(1).png</pixmap>
+                 <pixmap resource="res.qrc">:/resources/images/crupier.png</pixmap>
                 </property>
                 <property name="scaledContents">
                  <bool>true</bool>
@@ -226,7 +226,7 @@
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>../Descargas/checkbox-multiple-blank-circle-outline.png</pixmap>
+                 <pixmap resource="res.qrc">:/resources/images/lancelot.png</pixmap>
                 </property>
                 <property name="scaledContents">
                  <bool>true</bool>
@@ -257,7 +257,7 @@
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>../Descargas/checkbox-blank-circle.png</pixmap>
+                 <pixmap resource="res.qrc">:/resources/images/ball.png</pixmap>
                 </property>
                 <property name="scaledContents">
                  <bool>true</bool>
@@ -390,8 +390,6 @@
      <string>About</string>
     </property>
     <addaction name="actionAbout_this_app"/>
-    <addaction name="separator"/>
-    <addaction name="actionInfo"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuPlayer"/>
@@ -432,13 +430,10 @@
     <string>About this app</string>
    </property>
   </action>
-  <action name="actionInfo">
-   <property name="text">
-    <string>Information</string>
-   </property>
-  </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
  <connections/>
 </ui>

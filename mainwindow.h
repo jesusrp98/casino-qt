@@ -41,6 +41,8 @@ private slots:
     void updateJugadoresList(int printConsole);    
     Jugador getPlayerByIndex(int index);
 
+    void on_actionAbout_this_app_triggered();
+
 private:
     Ui::MainWindow *ui;
 

@@ -4,6 +4,7 @@
 #include "deleteplayerdialog.h"
 #include "detailsplayer.h"
 #include "rolldialog.h"
+#include "about.h"
 
 #include <QFileDialog>
 #include <QDateTime>
@@ -82,6 +83,11 @@ void MainWindow::on_actionDetails_triggered(){
 
 void MainWindow::on_actionExit_triggered(){
     QApplication::quit();
+}
+
+void MainWindow::on_actionAbout_this_app_triggered(){
+    About aboutDialog;
+    aboutDialog.exec();
 }
 
 void MainWindow::on_actionAdd_Player_triggered(){

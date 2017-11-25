@@ -17,7 +17,8 @@ SOURCES += \
     addplayerdialog.cpp \
     deleteplayerdialog.cpp \
     detailsplayer.cpp \
-    rolldialog.cpp
+    rolldialog.cpp \
+    about.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -28,11 +29,20 @@ HEADERS += \
     addplayerdialog.h \
     deleteplayerdialog.h \
     detailsplayer.h \
-    rolldialog.h
+    rolldialog.h \
+    about.h
 
 FORMS += \
         mainwindow.ui \
     addplayerdialog.ui \
     deleteplayerdialog.ui \
     detailsplayer.ui \
-    rolldialog.ui
+    rolldialog.ui \
+    about.ui
+
+DISTFILES += \
+    ../Descargas/Logo UCO.png
+
+RESOURCES += \
+    res.qrc \
+    res.qrc
