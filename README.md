@@ -1,4 +1,4 @@
-# Project: Casino, built with Qt
+# Project: Casino Royale
 
 Project develop with Qt to give the casino project a graphical user interface (GUI).
 
@@ -13,19 +13,17 @@ Clone the repository with the clone command:
 ```
 $ git clone
 ```
+Then, open Qt Creator and select the main project file:
 
-Finally, when asked to open new project, select the project folder. Happy coding :)
+```
+casino.pro
+```
+
+Happy coding :)
 
 ## Built With
 
-* [Android Studio](https://developer.android.com/studio/index.html/) - The web framework used
-* [JAMA](https://math.nist.gov/javanumerics/jama/) - Java matrix package
-
-## Useful UI elements
-
-* [NumberPicker](https://github.com/ShawnLin013/NumberPicker/) - Number picker used in settigns panel.
-* [CircleIndicator](https://github.com/ongakuer/CircleIndicator/) - Circle indicator used in matrix editor.
-* [TextDrawable](https://github.com/amulyakhare/TextDrawable/) - Text drawable used in operation list.
+* [Qt Creator](https://www.qt.io/download) - The framework used
 
 ## Authors
 
