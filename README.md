@@ -23,7 +23,7 @@ Happy coding :)
 
 ## Built With
 
-* [Qt Creator](https://www.qt.io/download) - The framework used
+* [Qt Creator](https://www.qt.io/download) - Framework used.
 
 ## Authors
 
